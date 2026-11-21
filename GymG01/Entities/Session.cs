@@ -2,7 +2,6 @@
 {
     public class Session : BaseEntity
     {
-        internal object CreatedAt;
 
         public string Description { get; set; } = default!;
         public int Capacity { get; set; }

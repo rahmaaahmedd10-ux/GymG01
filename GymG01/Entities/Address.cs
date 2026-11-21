@@ -1,5 +1,8 @@
-﻿namespace GymG01.Entities
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace GymG01.Entities
 {
+    [Owned]
     public class Address
     {
         public string Street { get; set; } = default!;

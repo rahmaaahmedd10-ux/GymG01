@@ -2,7 +2,7 @@
 {
     public class Plan : BaseEntity
     {
-        internal object CreatedAt;
+   
 
         public string Name { get; set; } = default!;
         public decimal Price { get; set; }
